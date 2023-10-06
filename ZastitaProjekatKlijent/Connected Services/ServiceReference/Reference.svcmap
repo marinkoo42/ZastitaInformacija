@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="074a797d-7ce1-476e-9b9f-0e850290ae8e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58239/ServiceZI.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceZI.xsd" MetadataType="Schema" ID="bb998e58-c442-4ed8-8ae6-e073d3926fb2" SourceId="1" SourceUrl="http://localhost:58239/ServiceZI.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceZI1.xsd" MetadataType="Schema" ID="759f15b9-7817-401c-9cd3-ca533b2cf78f" SourceId="1" SourceUrl="http://localhost:58239/ServiceZI.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceZI.disco" MetadataType="Disco" ID="51bcd02e-3905-4b05-b1e2-98c6e87f25b3" SourceId="1" SourceUrl="http://localhost:58239/ServiceZI.svc?disco" />
+    <MetadataFile FileName="ServiceZI.wsdl" MetadataType="Wsdl" ID="5828ed18-e3d9-4db4-99f3-583fcaf6d3b3" SourceId="1" SourceUrl="http://localhost:58239/ServiceZI.svc?wsdl" />
+    <MetadataFile FileName="ServiceZI2.xsd" MetadataType="Schema" ID="fd8dcf48-0c2a-4963-940c-f275f17e1995" SourceId="1" SourceUrl="http://localhost:58239/ServiceZI.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

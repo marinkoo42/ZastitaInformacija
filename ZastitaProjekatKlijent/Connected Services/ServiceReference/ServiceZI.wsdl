@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="ServiceZI" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:58239/ServiceZI.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:58239/ServiceZI.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:58239/ServiceZI.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceZI_Crc32_InputMessage">
+    <wsdl:part name="parameters" element="tns:Crc32" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_Crc32_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Crc32Response" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_EnkriptujRC4_InputMessage">
+    <wsdl:part name="parameters" element="tns:EnkriptujRC4" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_EnkriptujRC4_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EnkriptujRC4Response" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_DekriptujRC4_InputMessage">
+    <wsdl:part name="parameters" element="tns:DekriptujRC4" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_DekriptujRC4_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DekriptujRC4Response" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_EnkriptujTEA_InputMessage">
+    <wsdl:part name="parameters" element="tns:EnkriptujTEA" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_EnkriptujTEA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EnkriptujTEAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_DekriptujTEA_InputMessage">
+    <wsdl:part name="parameters" element="tns:DekriptujTEA" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_DekriptujTEA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DekriptujTEAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_EnkriptujTEA_CBC_Mode_InputMessage">
+    <wsdl:part name="parameters" element="tns:EnkriptujTEA_CBC_Mode" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_EnkriptujTEA_CBC_Mode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EnkriptujTEA_CBC_ModeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_DekriptujTEA_CBC_Mode_InputMessage">
+    <wsdl:part name="parameters" element="tns:DekriptujTEA_CBC_Mode" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_DekriptujTEA_CBC_Mode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DekriptujTEA_CBC_ModeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_EnkriptujENIGMA_InputMessage">
+    <wsdl:part name="parameters" element="tns:EnkriptujENIGMA" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_EnkriptujENIGMA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EnkriptujENIGMAResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_DekriptujENIGMA_InputMessage">
+    <wsdl:part name="parameters" element="tns:DekriptujENIGMA" />
+  </wsdl:message>
+  <wsdl:message name="IServiceZI_DekriptujENIGMA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DekriptujENIGMAResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceZI">
+    <wsdl:operation name="Crc32">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceZI/Crc32" message="tns:IServiceZI_Crc32_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceZI/Crc32Response" message="tns:IServiceZI_Crc32_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EnkriptujRC4">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceZI/EnkriptujRC4" message="tns:IServiceZI_EnkriptujRC4_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceZI/EnkriptujRC4Response" message="tns:IServiceZI_EnkriptujRC4_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DekriptujRC4">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceZI/DekriptujRC4" message="tns:IServiceZI_DekriptujRC4_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceZI/DekriptujRC4Response" message="tns:IServiceZI_DekriptujRC4_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EnkriptujTEA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceZI/EnkriptujTEA" message="tns:IServiceZI_EnkriptujTEA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceZI/EnkriptujTEAResponse" message="tns:IServiceZI_EnkriptujTEA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DekriptujTEA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceZI/DekriptujTEA" message="tns:IServiceZI_DekriptujTEA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceZI/DekriptujTEAResponse" message="tns:IServiceZI_DekriptujTEA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EnkriptujTEA_CBC_Mode">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceZI/EnkriptujTEA_CBC_Mode" message="tns:IServiceZI_EnkriptujTEA_CBC_Mode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceZI/EnkriptujTEA_CBC_ModeResponse" message="tns:IServiceZI_EnkriptujTEA_CBC_Mode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DekriptujTEA_CBC_Mode">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceZI/DekriptujTEA_CBC_Mode" message="tns:IServiceZI_DekriptujTEA_CBC_Mode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceZI/DekriptujTEA_CBC_ModeResponse" message="tns:IServiceZI_DekriptujTEA_CBC_Mode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EnkriptujENIGMA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceZI/EnkriptujENIGMA" message="tns:IServiceZI_EnkriptujENIGMA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceZI/EnkriptujENIGMAResponse" message="tns:IServiceZI_EnkriptujENIGMA_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DekriptujENIGMA">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceZI/DekriptujENIGMA" message="tns:IServiceZI_DekriptujENIGMA_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceZI/DekriptujENIGMAResponse" message="tns:IServiceZI_DekriptujENIGMA_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceZI" type="tns:IServiceZI">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Crc32">
+      <soap:operation soapAction="http://tempuri.org/IServiceZI/Crc32" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnkriptujRC4">
+      <soap:operation soapAction="http://tempuri.org/IServiceZI/EnkriptujRC4" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DekriptujRC4">
+      <soap:operation soapAction="http://tempuri.org/IServiceZI/DekriptujRC4" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnkriptujTEA">
+      <soap:operation soapAction="http://tempuri.org/IServiceZI/EnkriptujTEA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DekriptujTEA">
+      <soap:operation soapAction="http://tempuri.org/IServiceZI/DekriptujTEA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnkriptujTEA_CBC_Mode">
+      <soap:operation soapAction="http://tempuri.org/IServiceZI/EnkriptujTEA_CBC_Mode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DekriptujTEA_CBC_Mode">
+      <soap:operation soapAction="http://tempuri.org/IServiceZI/DekriptujTEA_CBC_Mode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnkriptujENIGMA">
+      <soap:operation soapAction="http://tempuri.org/IServiceZI/EnkriptujENIGMA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DekriptujENIGMA">
+      <soap:operation soapAction="http://tempuri.org/IServiceZI/DekriptujENIGMA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceZI">
+    <wsdl:port name="BasicHttpBinding_IServiceZI" binding="tns:BasicHttpBinding_IServiceZI">
+      <soap:address location="http://localhost:58239/ServiceZI.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

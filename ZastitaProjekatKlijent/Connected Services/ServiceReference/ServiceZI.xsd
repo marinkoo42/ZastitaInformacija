@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:58239/ServiceZI.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="Crc32">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="podaci" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Crc32Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Crc32Result" type="xs:unsignedInt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EnkriptujRC4">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="podaci" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="kljuc" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EnkriptujRC4Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EnkriptujRC4Result" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DekriptujRC4">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="podaci" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="kljuc" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DekriptujRC4Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DekriptujRC4Result" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EnkriptujTEA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="podaci" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="kljuc" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EnkriptujTEAResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EnkriptujTEAResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DekriptujTEA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="podaci" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="kljuc" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DekriptujTEAResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DekriptujTEAResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EnkriptujTEA_CBC_Mode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="podaci" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="kljuc" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="IV" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EnkriptujTEA_CBC_ModeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EnkriptujTEA_CBC_ModeResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DekriptujTEA_CBC_Mode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="podaci" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="kljuc" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="IV" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DekriptujTEA_CBC_ModeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DekriptujTEA_CBC_ModeResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EnkriptujENIGMA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="podaci" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ringovi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kljuc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="reflektor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="r1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="r2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="r3" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="plugboardParovi" nillable="true" type="q1:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EnkriptujENIGMAResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EnkriptujENIGMAResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DekriptujENIGMA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="podaci" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ringovi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kljuc" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="reflektor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="r1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="r2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="r3" nillable="true" type="xs:string" />
+        <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="plugboardParovi" nillable="true" type="q2:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DekriptujENIGMAResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DekriptujENIGMAResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

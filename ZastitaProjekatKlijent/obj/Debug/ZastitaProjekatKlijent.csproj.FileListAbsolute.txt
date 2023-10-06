@@ -1,0 +1,17 @@
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\bin\Debug\ZastitaProjekatKlijent.exe.config
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\bin\Debug\ZastitaProjekatKlijent.exe
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\bin\Debug\ZastitaProjekatKlijent.pdb
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.csproj.AssemblyReference.cache
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.CBCForma.resources
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.EnigmaForma.resources
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.PocetnaForma.resources
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.Properties.Resources.resources
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.RC4Forma.resources
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.TEAForma.resources
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.csproj.GenerateResource.cache
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.csproj.CoreCompileInputs.cache
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.exe
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.pdb
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.CRCTestForm.resources
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatKlijent\obj\Debug\ZastitaProjekatKlijent.RC4_Parallel.resources
