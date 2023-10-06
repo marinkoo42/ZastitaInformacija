@@ -1,0 +1,7 @@
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatServis\bin\ZastitaProjekatServis.dll.config
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatServis\bin\ZastitaProjekatServis.dll
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatServis\bin\ZastitaProjekatServis.pdb
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatServis\obj\Debug\ZastitaProjekatServis.csproj.AssemblyReference.cache
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatServis\obj\Debug\ZastitaProjekatServis.csproj.CoreCompileInputs.cache
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatServis\obj\Debug\ZastitaProjekatServis.dll
+C:\Users\Mita\source\repos\ZastitaProjekatService\ZastitaProjekatServis\obj\Debug\ZastitaProjekatServis.pdb
